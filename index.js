@@ -4,7 +4,7 @@ var router = require('koa-router')();
 const APIService = require('./src/service');
 
 router.get('/', function*() {
-	this.body = '看到我我就让你 嘿嘿嘿';
+	this.body = 'Hello World';
 })
 
 router.get('/api-wechat/access_token/get', function*(next) {

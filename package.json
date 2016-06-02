@@ -1,0 +1,17 @@
+{
+	"name": "wechat-signature-server",
+	"version": "1.0.0",
+	"description": "wechat signature server",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js --harmony"
+	},
+	"author": "Picker",
+	"license": "MIT",
+	"dependencies": {
+		"jssha": "^2.1.0",
+		"koa": "^1.2.0",
+		"koa-router": "^5.4.0",
+		"node-fetch": "^1.5.3"
+	}
+}
